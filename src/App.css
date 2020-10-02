@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -11,50 +13,5 @@ body {
   min-height: 100vh;
   background: #253734;
   color: #e7d9a7;
-}
-
-.date-chooser {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.date-chooser-button {
-  flex: 1;
-  padding: 15px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-  background: transparent;
-  text-transform: uppercase;
-  color: #e7d9a7;
-  border-bottom: 2px solid rgba(231, 217, 167, 0.2);
-}
-
-.date-chooser-button span {
-  display: block;
-  min-height: 60px;
-  font-size: 50px;
-}
-
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  padding: 20px;
-  max-width: 400px;
-  border-radius: 10px;
-  background: #497c51;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.calendar-day {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  transition: 0.3s ease background;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  background: none;
+  font-family: 'Playfair Display', serif;
 }
